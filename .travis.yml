@@ -1,0 +1,5 @@
+language: csharp
+solution: taskCWeek2/taskCWeek2.sln
+deploy:
+ provider: azure_web_apps
+ skip_cleanup: true
